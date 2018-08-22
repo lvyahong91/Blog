@@ -1,4 +1,4 @@
-package com.xqc.contreller;
+package com.xqc.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
