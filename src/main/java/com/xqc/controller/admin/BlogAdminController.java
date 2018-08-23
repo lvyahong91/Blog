@@ -24,10 +24,10 @@ import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import net.sf.json.JsonConfig;
 
-
 /**
- * 管理员博客Controller层
- * @author Administrator
+ * 博客管理Controller
+ * 
+ * @author A Cang（xqc）
  *
  */
 @Controller
