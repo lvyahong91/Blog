@@ -95,6 +95,7 @@ public class BlogAdminController {
 		return null;
 	}
 	
+	
 	/**
 	 * É¾³ý²©¿ÍÐÅÏ¢
 	 * @param ids
