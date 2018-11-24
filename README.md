@@ -1,3 +1,5 @@
+未完成
+
 ## :pushpin: 简介
 >> 这是一个模仿博客园的博客平台，主要是为前端学习者作为练手素材，或则对于有前端经验想自行搭建设计博客页面的开发者使用
 ## :bulb: 背景
@@ -12,10 +14,20 @@
 ## :lock: 代码规范
 >> 此处省略，可参考《阿里巴巴Java开发手册》
 ## :wrench: 使用
->> 1:安装MYSQL数据库及客户端，详细步骤可参考[JAVA开发环境搭建](https://www.cnblogs.com/nullering/p/9366313.html) 第五条<br>
->> 2:下载doc文件夹下的  db_blog.sql 文件 ,打开MYSQL客户端，导入该文件，如图所示操作<br>
+### 1:安装MYSQL数据库及客户端
+>> 详细步骤可参考[JAVA开发环境搭建](https://www.cnblogs.com/nullering/p/9366313.html) 第五条<br>
+### 2:导入Sql
+>> 下载doc文件夹下的  db_blog.sql 文件 ,打开MYSQL客户端，导入该文件，如图所示操作<br>
 ![importSQLFile](https://github.com/3218870799/Blog/blob/master/doc/img/importSQl.png)
+### 3:下载配置Tomact
+>> 详细步骤可参考[Java开发环境搭建](https://www.cnblogs.com/nullering/p/9366313.html) 第二条
+### 4:启动项目：
+##### 方案一：
+>>>> 
 
+
+
+### 
 开发流程：
 
 	1:需求分析
