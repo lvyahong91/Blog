@@ -1,0 +1,48 @@
+前台接口API:
+【请求主页】
+http://localhost:8080/Blog/index?pageIndex=1&pageSize=100
+参数：
+必须: pageIndex pageSize
+ {
+ 	"code":200,
+ 	"message":"成功!",
+ 	"result":{
+ 		blogList:{
+ 		},
+ 		pageCode:"",
+ 		mainPage:"",
+ 		pageTitle:"",
+ }	
+
+【添加或者修改评论】
+http://localhost:8080/Blog/comment/save
+参数:
+	必选：content，imageCode，blog.id
+ {
+ 	"code":200,
+ 	"message":"成功!",
+ 	"result":{
+ 		"success":true
+ }	
+【请求博客详细信息】
+http://localhost:8080/Blog/blog/articles?id=1
+参数
+ 必选 ：id
+ {
+ 	"code":200,
+ 	"message":"成功!",
+ 	"result":{
+ 		"success":true,
+ 		"blogId":1,
+ 		"state":1,// 查询审核通过的评论
+ 		"commentList":{
+ 			
+ 		},
+ 		"pageCode":"",
+ 		"pageTitle":"test",
+ 		}
+ }
+ 【根据关键字查询相关博客信息】
+ http://localhost:8080/Blog/blog/q
+ 
+ 
